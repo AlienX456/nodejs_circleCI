@@ -16,7 +16,7 @@ jobs:
 workflows:
   test:
     jobs:
-      - test
+      - test:
           matrix:
             parameters:
               node-version: ["14.4.0"]
