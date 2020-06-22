@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_travisci",
+  "version": "1.0.0",
+  "description": "Learning aspects about CI using Travis and Node",
+  "main": "calculator.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlienX456/nodejs_travisCI.git"
+  },
+  "author": "Esteban Romero",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AlienX456/nodejs_travisCI/issues"
+  },
+  "homepage": "https://github.com/AlienX456/nodejs_travisCI#readme"
+}
