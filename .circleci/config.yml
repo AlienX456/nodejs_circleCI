@@ -12,7 +12,7 @@ jobs:
       - checkout
       - node/install:
           node-version: << parameters.node-version >>
-      - npm test
+      - run: npm test
 workflows:
   test:
     jobs:
